@@ -18,7 +18,7 @@ Built and tested with `@qvac/sdk` **0.19.0**.
 ## Install
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/qvac-chat.git
+git clone https://github.com/vander-code/qvac-chat.git
 cd qvac-chat
 npm install
 ```
