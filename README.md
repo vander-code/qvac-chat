@@ -49,6 +49,8 @@ AI:  On-device AI means the model runs directly on your computer or phone...
 
 ## How it works
 
+Replies are streamed token-by-token as the model generates them, so you see the answer appear in real time instead of waiting for the whole response.
+
 1. `loadModel()` downloads (first run only) and loads a small LLM into memory
    on your device.
 2. `completion()` streams a reply token-by-token, entirely from local
